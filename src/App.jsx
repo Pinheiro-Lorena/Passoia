@@ -1,14 +1,24 @@
 
 //aqui importamos arquivos
 
-import Header from "./components/Header"
-
-
+import Header from "./components/Header";
+import Lancamentos from "./components/Lancamentos";
+import Banner from "./components/Banner";
+import Looks from "./components/Looks";
+import Novidades from "./components/Novidades";
+import Footer from "./components/Footer";
+//componente principal da aplicação
 function App(){
 
   return (
 <>
 <Header />
+<Banner />
+<Looks />
+<Lancamentos />
+<Novidades />
+<Footer />
+
 </>
   )
 }

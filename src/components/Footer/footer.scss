@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 10px;
+    gap: 100px;
+}
+
+.atendimento {
+ font-size: 20px;
+    margin: 6px;
+    gap: 4px;
+}
+
+.formas-de-pagamento {
+margin: 4px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 13px;
+    margin: 6px;
+    cursor: pointer;
+}
+.redes-sociais {
+    margin: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    margin: 25px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        height: auto;
+        gap: 50px;
+    }
+}

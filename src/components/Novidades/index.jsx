@@ -1,4 +1,5 @@
 import "./Novidades.scss";
+
 import novidades from "../../assets/novidades.png";
 
 function Novidades() {

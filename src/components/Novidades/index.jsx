@@ -1,4 +1,4 @@
-import "./Novidades.scss";
+import "./novidades.scss";
 
 import novidades from "../../assets/novidades.png";
 
